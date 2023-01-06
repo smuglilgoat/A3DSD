@@ -1,4 +1,5 @@
-/TP_A3/scene
-/TP_A3/images_statue
-TP_A3/images
-TP_A3/images_res
+*.zip
+/Partie_R_Raffin/TP_Photogrametrie/images
+/Partie_R_Raffin/TP_Photogrametrie/images_res
+/Partie_R_Raffin/TP_Photogrametrie/images_statue
+/Partie_R_Raffin/TP_Photogrametrie/scene/views
