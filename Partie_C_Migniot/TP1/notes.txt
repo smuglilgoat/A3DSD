@@ -1,0 +1,6 @@
+1 mouv seq
+    1 sous premier plan 
+        a du mal a distinguer le back ground des images ne nb
+        sur course, met en avant zoro mais aussi certains elements du decor
+        arrive a tres bien detecter un personnage sur un fond uni colore 
+        ne detecte que les objets en mouvements (pas le corps)
