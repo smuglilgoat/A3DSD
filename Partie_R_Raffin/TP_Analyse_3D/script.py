@@ -13,10 +13,10 @@ def get_occurrence_count(elements):
     return occurrence_count
 
 print("# Loaded Functions")
-model = "surface-L2-clean"
-mesh = pymesh.load_mesh(model + ".ply")
-mesh_dec = pymesh.load_mesh(model + "_dec.ply")
-mesh_lis = pymesh.load_mesh(model + "_lis.ply")
+model = "suzanne"
+mesh = pymesh.load_mesh(model + ".obj")
+mesh_dec = pymesh.load_mesh(model + "_dec.obj")
+mesh_lis = pymesh.load_mesh(model + "_lis.obj")
 
 print("# Loaded Mesh")
 print("* mesh:")
