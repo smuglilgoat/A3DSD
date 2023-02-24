@@ -9,7 +9,7 @@ function filtrage()
         ParticulesAv=Particules;
         
 		Particules = propagation(Particules,Config,Estimation,frame) ;
-        visuPropagation(ParticulesAv,Particules,Config,I,frame) ;
+      %  visuPropagation(ParticulesAv,Particules,Config,I,frame) ;
         
 		Particules = ponderation(Particules,Config,I) ;
 		[Estimation(frame,1) Estimation(frame,2)]=visuParticules(Particules,Config,I,frame);
