@@ -13,9 +13,8 @@ function filtrage()
         
 		Particules = ponderation(Particules,Config,I) ;
 		[Estimation(frame,1) Estimation(frame,2)]=visuParticules(Particules,Config,I,frame);
-        %ParticulesPreResampling = Particules
 		Particules = resampling(Particules,Config) ;
-        %ParticulesPostResampling = Particules
+        
 	end
 
 
